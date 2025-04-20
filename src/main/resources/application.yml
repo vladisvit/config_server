@@ -10,3 +10,7 @@ spring:
         git:
           uri: https://github.com/vladisvit/config_server
           default-label: main  # or master, depending on your repo
+          search-paths: config-files
+          clone-on-start: true
+        health:
+          enabled: true
