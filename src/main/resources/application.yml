@@ -2,11 +2,11 @@ server:
   port: 8888
 spring:
   application:
-    name: config-server
+    name: configserver
 
   cloud:
     config:
       server:
         git:
           uri: https://github.com/vladisvit/config_server
-          default-label: master  # or master, depending on your repo
+          default-label: main  # or master, depending on your repo
